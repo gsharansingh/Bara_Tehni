@@ -1,11 +1,6 @@
 #include"../headers/all.h"
 
-const int SIZE = 5;
-
-int board[SIZE][SIZE];
-
 int main (){
-    puts("Hello");
-    create_board(&SIZE, &SIZE);
+    create_board(5);
     show_board();
 }

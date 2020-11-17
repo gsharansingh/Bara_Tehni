@@ -2,5 +2,9 @@
 #include<string.h>
 #include<stdlib.h>
 
-void create_board(int*, int*);
+#define SIZE 5
+
+char board[SIZE][SIZE];
+
+void create_board(int);
 void show_board(void);
